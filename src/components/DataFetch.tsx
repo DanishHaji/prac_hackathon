@@ -21,7 +21,6 @@ const DataFetch = async () => {
       "imageUrl": image.asset->url
     }`
   );
-  console.log(query);
 
   return (
     <div className="grid grid-cols-1 bg-sky-50 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
